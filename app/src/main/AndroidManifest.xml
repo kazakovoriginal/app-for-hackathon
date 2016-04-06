@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.novoda"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="3" />
+
+    <application
+        android:icon="@drawable/onetwotrip"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".StartPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChoicePage"
+            android:label="@string/CHOICE">
+        </activity>
+
+        <activity
+            android:name=".RandomizerActivity"
+            android:label="@string/rand" >
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/main_act" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about_title" >
+        </activity>
+
+        <activity android:name=".ThirdActivity"
+            android:label="@string/about_title1">
+        </activity>
+
+        <activity
+            android:name=".CountryActivity"
+            android:label="@string/menu_settings2" >
+        </activity>
+
+        <activity
+            android:name=".FinalActivity"
+            android:label="@string/menu_settings3" >
+        </activity>
+
+    </application>
+</manifest>

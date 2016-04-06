@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, JsonParsingActivity!</string>
+    <string name="app_name">TravelHelper</string>
+    <string name="main_act">Когда планируешь ехать?</string>
+    <string name="about_text">
+    У лукоморья дуб зелёный;\n
+    Златая цепь на дубе том:\n
+    И днём и ночью <b>кот учёный</b>\n
+    Всё ходит по цепи кругом;\n
+    Идёт <b>направо</b> - песнь заводит,\n
+    <b>Налево</b> - сказку говорит.</string>
+    <string name="about_title">Чем планируешь заниматься?</string>
+    <string name="about_title1">А точнее?</string>
+    <string name="rand">Мне повезёт</string>
+    <string name="menu_settings">title</string>
+    <string name="menu_settings1">Что дальше?</string>
+    <string name="menu_settings2">Какая страна предпочтительнее?</string>
+    <string name="menu_settings3">Советую поехать в:</string>
+    <string name="CHOICE">Что скажешь?</string>
+
+</resources>
